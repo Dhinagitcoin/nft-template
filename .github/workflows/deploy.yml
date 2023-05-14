@@ -30,7 +30,7 @@ jobs:
 
       - name: Deploy website
         env:
-          APILLON_API_KEY: ${{ secrets.APILLON_API_KEY }}
-          APILLON_API_SECRET: ${{ secrets.APILLON_API_SECRET }}
-          WEBSITE_UUID: ${{ secrets.WEBSITE_UUID }}
+          APILLON_API_KEY: ${{ 148bdf2e-e31f-4bae-baf4-512a0698fde8 }}
+          APILLON_API_SECRET: ${{ #RnV9v6Xyq3j }}
+          WEBSITE_UUID: ${{ 5c2d8dba-e66a-42a8-b7b0-73f54c79aa45 }}
         run: npx --yes @apillon/cli hosting deploy-website ./dist --uuid $WEBSITE_UUID --key $APILLON_API_KEY --secret $APILLON_API_SECRET
